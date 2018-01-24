@@ -1,0 +1,48 @@
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.preference.PreferenceCategory android:title="Network">
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="key1"
+            android:summary="Click to switch on/off"
+            android:title="Airplane mode" />
+        <android.support.v7.preference.EditTextPreference
+            android:dialogMessage="Dialog Message"
+            android:ems="10"
+            android:inputType="text"
+            android:key="key2"
+            android:summary="Enter the User Name"
+            android:title="User Name" />
+        <android.support.v7.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="key3"
+            android:title="Notification" />
+    </android.support.v7.preference.PreferenceCategory>
+
+
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="key_about"
+        android:title="DEV DEEP">
+
+        <PreferenceScreen
+            android:key="button_system_update"
+            android:persistent="false"
+            android:title="DEVELOPER TOOLS">
+
+            <ListPreference
+                android:key="button_status"
+                android:title="ADVANCED REBOOT" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="button_device_info"
+            android:persistent="false"
+            android:title="USB DEBUGGING">
+
+            <android.support.v7.preference.CheckBoxPreference
+                android:defaultValue="true"
+                android:key="button_experience_prog"
+                android:title="DURATION SCALE" />
+        </PreferenceScreen>
+
+    </PreferenceScreen>
+</android.support.v7.preference.PreferenceScreen>

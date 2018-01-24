@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="FOOTBALL"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Football is a family of team sports that involve, to varying degrees, kicking a ball with a foot to score a goal. Unqualified, the word football is understood to refer to whichever form of football is the most popular in the regional context in which the word appears. Sports commonly called 'football' in certain places include: association football (known as soccer in some countries); gridiron football (specifically American football or Canadian football); Australian rules football; rugby football (either rugby league or rugby union); and Gaelic football.These different variations of football are known as football codes."
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+</RelativeLayout>

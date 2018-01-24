@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004008166381",
+    "firebase_url": "https://exam-5c3a2.firebaseio.com",
+    "project_id": "exam-5c3a2",
+    "storage_bucket": "exam-5c3a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004008166381:android:d1d628495da93e5f",
+        "android_client_info": {
+          "package_name": "com.example.abhay.examapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004008166381-7sutknpmi0dm69qtm1ju6npclr5u6l0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYufsSeYE1OF53bAeQXRu1Z6YgW43w_Cw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

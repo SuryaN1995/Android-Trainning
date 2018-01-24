@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.abhay.examapp.Main_Package.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="THIS IS AN EXAMPLE OF JOB SCHEDULER"
+        android:textStyle="bold" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/startjob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start a Job" />
+
+    <Button
+        android:id="@+id/canceljobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel all Jobs" />
+
+</LinearLayout>

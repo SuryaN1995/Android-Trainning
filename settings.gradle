@@ -1,0 +1,1 @@
+include ':app', ':preference', ':smsbroadcast', ':serviceclass', ':animation', ':friday', ':enrollmentform'

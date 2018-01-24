@@ -1,0 +1,42 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+        <item name="colorPrimary">#AD1457</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#26A69A</item>
+        <item name="preferenceTheme">
+            @style/PreferenceThemeOverlay.v14.Material
+        </item>
+    </style>
+
+
+    <string-array name="navigation_drawer_items_array">
+
+        <item>Home</item>
+        <item>Football</item>
+        <item>Tennis</item>
+        <item>Settings</item>
+        <item>Cricket</item>
+        <item>WebView</item>
+        <item>SQL</item>
+        <item>RecyclerView</item>
+        <item>DataBinding</item>
+        <item>JsonParsing</item>
+        <item>Weather</item>
+        <item>Scheduler</item>
+        <item>Broadcast</item>
+        <item>Service</item>
+        <item>Firebase</item>
+
+
+    </string-array>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

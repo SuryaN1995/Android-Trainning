@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ANDROID FILES - TECHJINI.iml" filepath="$PROJECT_DIR$/ANDROID FILES - TECHJINI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enrollmentform/enrollmentform.iml" filepath="$PROJECT_DIR$/enrollmentform/enrollmentform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friday/friday.iml" filepath="$PROJECT_DIR$/friday/friday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/preference/preference.iml" filepath="$PROJECT_DIR$/preference/preference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceclass/serviceclass.iml" filepath="$PROJECT_DIR$/serviceclass/serviceclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smsbroadcast/smsbroadcast.iml" filepath="$PROJECT_DIR$/smsbroadcast/smsbroadcast.iml" />
+    </modules>
+  </component>
+</project>

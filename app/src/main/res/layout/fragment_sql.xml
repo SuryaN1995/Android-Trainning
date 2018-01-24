@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.abhay.examapp.Main_Package.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:hint="USERNAME"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:hint="VIEW DATA"
+        android:text="VIEW DATA"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editPass"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="23dp"
+        android:text="ADD USER"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:text="UPDATE"
+        android:textStyle="normal|bold" />
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:freezesText="false"
+        android:hint="Enter Name to Delete"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="DELETE"
+        android:textStyle="normal|bold" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="Current Name"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="New Name"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
